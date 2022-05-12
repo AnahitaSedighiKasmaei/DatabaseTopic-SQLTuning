@@ -1,6 +1,7 @@
 # DatabaseTopic-SQLTuning
 
-> Note:These query tunning have been done base on "AdventureWorks2019" Database.
+Note: These query tunning have been done base on "AdventureWorks2019" Database.
+
 SQL tuning project for Advance Database Topic
 SQL Server performance tuning contains a set of processes and procedures designed to optimize relational database queries to run as efficiently as possible. SQL tuning applies several elements, including identifying which queries are encountering slowdowns and optimizing them for maximum efficiency. As a result, numerous relational databases such as MySQL and SQL Server will benefit from SQL tuning.
 Using proper indexes based on the table size and selecting appropriate fields as indexes has a significant impact on performance.
