@@ -21,3 +21,21 @@ Workflow steps:
 7.	Run the Analysing section
 8.	Check suggested Tunning advisers and apply them to the database 
 
+---------------------------------------------
+To discover the performance issue SQL tunning can be started by these steps:
+1.	Know your tables and row counts
+2.	 Examine the query filters, WHERE, and JOIN clauses and note the filtered row count
+3.	Know the selectivity of your tables: how many rows you’ll be working with, or the size of the actual, logical set
+4.	Check primary tunning principles
+5.	Knowing and using constraints can help
+6.	Check indexes on the Table: To get information about your indexes, run the sp_helpindex stored procedure
+7.	Examine the actual execution plan (not the estimated plan): Estimated plans use estimated statistics to determine the estimated rows; actual plans use actual statistics at runtime. If the actual and estimated plans are different, you may need to investigate further.
+8.	Record your results, focusing on the number of logical I/Os: If you don’t record the results, you won’t be able to determine the true impact of your changes.
+9.	Adjust the query based on your findings and make small, single changes at a time.
+10.	Making too many changes at one time can be ineffective as they can cancel each other out
+11.	Re-run the query and record results from the change you made
+12.	 If you still need more improvement, consider adjusting the indexes to reduce logical I/O
+13.	Rerun the query and record results
+
+![image](https://user-images.githubusercontent.com/69750288/167996807-182fc50a-b3f5-483e-a75c-9cdebbec08ad.png)
+
