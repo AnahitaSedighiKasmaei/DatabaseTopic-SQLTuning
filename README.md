@@ -37,5 +37,6 @@ To discover the performance issue SQL tunning can be started by these steps:
 12.	 If you still need more improvement, consider adjusting the indexes to reduce logical I/O
 13.	Rerun the query and record results
 
-![image](https://user-images.githubusercontent.com/69750288/167996807-182fc50a-b3f5-483e-a75c-9cdebbec08ad.png)
+![Index-SQL-tuning](https://user-images.githubusercontent.com/69750288/167996905-5b649006-7250-4fed-b0d4-7ad68900bff3.png)
+
 
